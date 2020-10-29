@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-29T12:09:47.595Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="fYjSmZE3YcBdEySZkSpC" version="13.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-29T17:05:05.432Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="Np_BrI1DB1lj9Jh_6ned" version="13.8.3" type="github">
   <diagram id="bRfcRm79ytPxtPZxrL0s" name="第 1 页">
-    <mxGraphModel dx="1186" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2013" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,11 +19,13 @@
         <mxCell id="tuAjzr3aOglrXse2tCgB-3" value="FNN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="250" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tuAjzr3aOglrXse2tCgB-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tuAjzr3aOglrXse2tCgB-4" target="tuAjzr3aOglrXse2tCgB-11">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="tuAjzr3aOglrXse2tCgB-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tuAjzr3aOglrXse2tCgB-4" target="tuAjzr3aOglrXse2tCgB-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="560" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="tuAjzr3aOglrXse2tCgB-4" value="DIN&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="510" width="80" height="40" as="geometry" />
+          <mxGeometry x="920" y="510" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tuAjzr3aOglrXse2tCgB-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tuAjzr3aOglrXse2tCgB-5" target="tuAjzr3aOglrXse2tCgB-13">
           <mxGeometry relative="1" as="geometry" />
@@ -42,8 +44,11 @@
             <mxPoint x="-7" y="20" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="tuAjzr3aOglrXse2tCgB-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tuAjzr3aOglrXse2tCgB-11" target="tuAjzr3aOglrXse2tCgB-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tuAjzr3aOglrXse2tCgB-11" value="DIEN&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="670" width="80" height="40" as="geometry" />
+          <mxGeometry x="820" y="660" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tuAjzr3aOglrXse2tCgB-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tuAjzr3aOglrXse2tCgB-12" target="tuAjzr3aOglrXse2tCgB-15">
           <mxGeometry relative="1" as="geometry" />
@@ -51,11 +56,11 @@
         <mxCell id="tuAjzr3aOglrXse2tCgB-12" value="wide部分改进" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="410" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tuAjzr3aOglrXse2tCgB-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tuAjzr3aOglrXse2tCgB-13" target="tuAjzr3aOglrXse2tCgB-17">
+        <mxCell id="tuAjzr3aOglrXse2tCgB-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tuAjzr3aOglrXse2tCgB-13" target="tuAjzr3aOglrXse2tCgB-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tuAjzr3aOglrXse2tCgB-13" value="deep部分改进" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="410" width="96" height="40" as="geometry" />
+          <mxGeometry x="464" y="410" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tuAjzr3aOglrXse2tCgB-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tuAjzr3aOglrXse2tCgB-14" target="tuAjzr3aOglrXse2tCgB-36">
           <mxGeometry relative="1" as="geometry" />
@@ -67,13 +72,13 @@
           <mxGeometry x="300" y="510" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tuAjzr3aOglrXse2tCgB-16" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22DCN%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22220%22%20y%3D%22460%22%20width%3D%2296%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;AFM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="510" width="96" height="40" as="geometry" />
+          <mxGeometry x="760" y="510" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tuAjzr3aOglrXse2tCgB-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tuAjzr3aOglrXse2tCgB-17" target="tuAjzr3aOglrXse2tCgB-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tuAjzr3aOglrXse2tCgB-17" value="NFM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="510" width="96" height="40" as="geometry" />
+          <mxGeometry x="554" y="510" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tuAjzr3aOglrXse2tCgB-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tuAjzr3aOglrXse2tCgB-5" target="tuAjzr3aOglrXse2tCgB-12">
           <mxGeometry relative="1" as="geometry">
@@ -90,14 +95,14 @@
         <mxCell id="tuAjzr3aOglrXse2tCgB-29" value="加入Product" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="190" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tuAjzr3aOglrXse2tCgB-32" value="加入argru序列模型&lt;br&gt;对兴趣演化过程建模" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="686" y="600" width="120" height="30" as="geometry" />
+        <mxCell id="tuAjzr3aOglrXse2tCgB-32" value="对序列建模" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="565" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tuAjzr3aOglrXse2tCgB-33" value="将wide部分由lr替换为fm" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="480" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tuAjzr3aOglrXse2tCgB-36" value="xdeepfm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="585" width="96" height="40" as="geometry" />
+          <mxGeometry x="50" y="630" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tuAjzr3aOglrXse2tCgB-38" value="dcn与deepfm的不用在于dcn利用多层cross网络进行特征组合，deepfm利用fm进行特征组合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="560" width="120" height="20" as="geometry" />
@@ -108,11 +113,11 @@
             <mxPoint x="270" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tuAjzr3aOglrXse2tCgB-42" value="nfm中特征交叉池化层一视同仁对待所有交叉特征，不考虑不同特征对于结果的影响" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="565" width="146" height="20" as="geometry" />
+        <mxCell id="tuAjzr3aOglrXse2tCgB-42" value="nfm中特征交叉池化层一视同仁对待所有交叉特征，afm是基于注意力机制的池化层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="560" width="146" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tuAjzr3aOglrXse2tCgB-43" value="利用深度网络改进fm模型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="430" y="460" width="150" height="20" as="geometry" />
+          <mxGeometry x="520" y="460" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tuAjzr3aOglrXse2tCgB-45" value="利用多层cross网络进行特征组合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="460" width="100" height="20" as="geometry" />
@@ -124,7 +129,47 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tuAjzr3aOglrXse2tCgB-47" value="业务相关的attention" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="500" width="84" height="20" as="geometry" />
+          <mxGeometry x="836" y="500" width="84" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tuAjzr3aOglrXse2tCgB-49" value="DSIN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="760" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tuAjzr3aOglrXse2tCgB-51" value="BST" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="660" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tuAjzr3aOglrXse2tCgB-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tuAjzr3aOglrXse2tCgB-4" target="tuAjzr3aOglrXse2tCgB-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="560" as="sourcePoint" />
+            <mxPoint x="780" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="960" y="605" />
+              <mxPoint x="1030" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tuAjzr3aOglrXse2tCgB-55" value="兴趣进化网络三层：&lt;br&gt;行为序列层，兴趣抽取层，兴趣进化层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="620" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tuAjzr3aOglrXse2tCgB-56" value="session兴趣:&lt;br&gt;1）session划分层&lt;br&gt;2）session兴趣抽取层：多头 self attention&lt;br&gt;3)session兴趣交互层：双向RNN&lt;br&gt;4）session兴趣激活层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="695" y="740" width="132" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tuAjzr3aOglrXse2tCgB-58" value="AutoInt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="472" y="690" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tuAjzr3aOglrXse2tCgB-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tuAjzr3aOglrXse2tCgB-13" target="tuAjzr3aOglrXse2tCgB-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="522" y="460" as="sourcePoint" />
+            <mxPoint x="612" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tuAjzr3aOglrXse2tCgB-61" value="将dnn换成了特征交互层的叠加。特征交互层输出每个特征的新embedding:&lt;br&gt;对每个原始embedding当做query利用多头self_attention构造与其他特征的组合。&lt;br&gt;利用残差连接兼顾高阶特征和原始embedding" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="396" y="600" width="104" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tuAjzr3aOglrXse2tCgB-62" value="跟autoint做法相同，autoint是用self attention构建每个特征embedding和其他特征的交互；bst是对序列中每个item通过self attention 重新学一个新embedding" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="620" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tuAjzr3aOglrXse2tCgB-65" value="DCN中多层cross相当x0不断乘一个数。提出CIN，进行特征向量级别交叉" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-29" y="575" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
