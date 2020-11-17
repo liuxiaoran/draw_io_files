@@ -1,1 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T07:32:49.109Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" version="13.9.8" etag="FEK-ahjFku4Xgx9EL7Uq" type="github"><diagram id="Fgm4SgyCf8n6uKB1ctdr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-17T08:11:35.249Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="oITAVgjb8yMmoLeC1pAg" version="13.9.8" type="github">
+  <diagram id="Fgm4SgyCf8n6uKB1ctdr" name="第 1 页">
+    <mxGraphModel dx="1323" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="08owm_N1cdeSl2sRpdJY-2" value="p_corpus 根据keyword得到kid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="70" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="08owm_N1cdeSl2sRpdJY-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="08owm_N1cdeSl2sRpdJY-3" target="08owm_N1cdeSl2sRpdJY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="08owm_N1cdeSl2sRpdJY-3" value="p_corpus get_adpack_by_kids 根据kid得到adpack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="192.5" y="160" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="08owm_N1cdeSl2sRpdJY-4" value="predict_adpacks()&lt;br&gt;中对于该路召回的adpack分到最多40个线程进行预估，每个线程最少处理12条adpack。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="250" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="08owm_N1cdeSl2sRpdJY-5" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="230" as="sourcePoint" />
+            <mxPoint x="790" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="08owm_N1cdeSl2sRpdJY-7" value="AdRetriever/Retrievers&lt;br&gt;召回" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="08owm_N1cdeSl2sRpdJY-8" value="AdRetriever/RetrieverModel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="280" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="08owm_N1cdeSl2sRpdJY-9" value="predict_ctr()&lt;br&gt;拼装OneCase, 预估单条adpack 的ctr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="08owm_N1cdeSl2sRpdJY-10" value="feature_manager.&lt;br&gt;get_features()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="08owm_N1cdeSl2sRpdJY-11" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="08owm_N1cdeSl2sRpdJY-9" target="08owm_N1cdeSl2sRpdJY-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="310" as="sourcePoint" />
+            <mxPoint x="610" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="08owm_N1cdeSl2sRpdJY-12" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="08owm_N1cdeSl2sRpdJY-10" target="08owm_N1cdeSl2sRpdJY-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="390" as="sourcePoint" />
+            <mxPoint x="670" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="08owm_N1cdeSl2sRpdJY-14" value="reg_data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="08owm_N1cdeSl2sRpdJY-12">
+          <mxGeometry x="0.3" y="2" relative="1" as="geometry">
+            <mxPoint x="10" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="08owm_N1cdeSl2sRpdJY-13" value="one_case" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="250" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="08owm_N1cdeSl2sRpdJY-15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="08owm_N1cdeSl2sRpdJY-4" target="08owm_N1cdeSl2sRpdJY-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="320" as="sourcePoint" />
+            <mxPoint x="420" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="08owm_N1cdeSl2sRpdJY-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="08owm_N1cdeSl2sRpdJY-16" target="08owm_N1cdeSl2sRpdJY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="08owm_N1cdeSl2sRpdJY-16" value="model_feature_manager.&lt;br&gt;predict_ctr()，对于reg_data中特征查embedding表，并根据模型参数进行前向推理。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="360" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="08owm_N1cdeSl2sRpdJY-17" value="" style="endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.682;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="08owm_N1cdeSl2sRpdJY-9" target="08owm_N1cdeSl2sRpdJY-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="360" as="sourcePoint" />
+            <mxPoint x="550" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="08owm_N1cdeSl2sRpdJY-18" value="reg_data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="08owm_N1cdeSl2sRpdJY-20" value="ctr" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="320" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="08owm_N1cdeSl2sRpdJY-22" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="08owm_N1cdeSl2sRpdJY-2" target="08owm_N1cdeSl2sRpdJY-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="180" as="sourcePoint" />
+            <mxPoint x="310" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
